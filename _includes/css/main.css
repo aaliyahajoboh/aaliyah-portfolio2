@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #7E57C2; /* Purplish color */
 }
 
 h1,
@@ -35,6 +35,7 @@ h6 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -63,19 +64,17 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: #7E57C2; /* Purplish color */
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: #2c3e50; /* Black color */
 }
 
 hr.star-primary:after {
-    color: #7E57C2; /* Purplish color */
-    background: #AB47BC; /* Another purplish color */
+    color: #2c3e50; /* Black color */
+    background-color: #fff; /* White color */
 }
-
-
 
 .img-centered {
     margin: 0 auto;
@@ -84,7 +83,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #7E57C2; /* Purplish color */
-    background: #AB47BC; /* Another purplish color */
+    background: #2c3e50; /* Black color */
 }
 
 header .container {
@@ -151,7 +150,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-   font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 
@@ -183,7 +182,7 @@ section h2 {
 
 section.success {
     color: #7E57C2; /* Purplish color */
-    background: #AB47BC; /* Another purplish color */
+    background: #2c3e50; /* Black color */
 }
 
 @media(max-width:767px) {
@@ -232,7 +231,7 @@ section.success {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #000;
+    color: #000; /* Black color */
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -273,19 +272,12 @@ section.success {
       max-width: 32%;
     }
   }
-  /* A large grid might need four columns on widescreen layouts */
-  /* @media (min-width: 1380px) {
-    .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 23.5%;
-      max-width: 23.5%;
-    }
-  } */
 
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
     font-size: 20px;
-    color: #000;
+    color: #000; /* Black color */
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -298,7 +290,6 @@ section.success {
     color: #7E57C2; /* Text color */
     background: #AB47BC; /* Background color */
 }
-
 
 .floating-label-form-group {
     position: relative;
@@ -350,7 +341,6 @@ section.success {
 
 .floating-label-form-group-with-focus label {
     color: #8A2BE2; /* Purplish color */
-
 }
 
 form .row:first-child .floating-label-form-group {
@@ -377,7 +367,6 @@ footer .footer-col {
 footer .footer-below {
     padding: 25px 0;
     background: #8A2BE2; /* Purplish background color */
-
 }
 
 .btn-social {
@@ -461,7 +450,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #2c3e50; /* Black color */
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -471,14 +460,14 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #2c3e50; /* Black color */
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: #2c3e50 !important; /* Black color */
 }
 
 /* Fix modal mouse wheel issues */
