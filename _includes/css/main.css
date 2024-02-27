@@ -289,7 +289,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #AB47BC; /* Border color */
-    color: #7E57C2; /* Text color */
+    color: #fff; /* Text color */
     background: #AB47BC; /* Background color */
 }
 
