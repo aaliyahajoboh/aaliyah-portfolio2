@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    background: linear-gradient(to bottom, #530964, #2c3e50); /* Gradient from dark purple to black */
 }
 
 p {
@@ -35,7 +36,6 @@ h6 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
-
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -68,13 +68,15 @@ hr.star-light:after {
 }
 
 hr.star-primary {
-    border-color: #2c3e50; /* Black color */
+    border-color: #7E57C2; /* Purplish color */
 }
 
 hr.star-primary:after {
-    color: #2c3e50; /* Black color */
-    background-color: #fff; /* White color */
+    color: #fff;
+    background: #530964; /* Dark purple color */
 }
+
+
 
 .img-centered {
     margin: 0 auto;
@@ -82,8 +84,8 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #7E57C2; /* Purplish color */
-    background: #2c3e50; /* Black color */
+    color: #fff;
+    background: #530964; /* Dark purple color */
 }
 
 header .container {
@@ -182,7 +184,7 @@ section h2 {
 
 section.success {
     color: #7E57C2; /* Purplish color */
-    background: #2c3e50; /* Black color */
+    background: #AB47BC; /* Another purplish color */
 }
 
 @media(max-width:767px) {
@@ -291,6 +293,7 @@ section.success {
     background: #AB47BC; /* Background color */
 }
 
+
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
@@ -357,7 +360,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background: #8A2BE2; /* Purplish background color */
+    background: #530964; /* Dark purple color */
 }
 
 footer .footer-col {
@@ -366,7 +369,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background: #8A2BE2; /* Purplish background color */
+    background: #530964; /* Dark purple color */
 }
 
 .btn-social {
