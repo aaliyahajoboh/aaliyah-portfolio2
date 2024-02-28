@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #0A1A3B; /* Base color */
 }
 
 h1,
@@ -32,7 +32,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Poppins Medium, Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; /* Poppins Medium font */
     font-weight: 700;
 }
 
@@ -59,21 +59,21 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #0A1A3B; /* Base color */
 }
 
 hr.star-light:after {
-    color: #fff;
-    background-color: #{{ site.color.primary }};
+    color: #0A1A3B; /* Base color */
+    background-color: #0A1A3B; /* Base color */
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: #0A1A3B; /* Base color */
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
-    background-color: #fff;
+    color: #0A1A3B; /* Base color */
+    background-color: #0A1A3B; /* Base color */
 }
 
 .img-centered {
@@ -83,7 +83,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #0A1A3B; /* Base color */
 }
 
 header .container {
@@ -99,7 +99,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Poppins Medium, Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; /* Poppins Medium font */
     font-size: 2em;
     font-weight: 700;
 }
@@ -150,7 +150,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Poppins Medium, Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; /* Poppins Medium font */
     font-weight: 700;
 }
 
@@ -182,7 +182,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #0A1A3B; /* Base color */
 }
 
 @media(max-width:767px) {
@@ -212,7 +212,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba({{ site.color.primary-rgb }},.9);
+    background: rgba(10, 26, 59, 0.9); /* Black background with 90% opacity */
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -293,7 +293,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }};
+    color: #0A1A3B; /* Base color */
     background: #fff;
 }
 
@@ -346,7 +346,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    color: #0A1A3B; /* Base color */
 }
 
 form .row:first-child .floating-label-form-group {
@@ -363,7 +363,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #0A1A3B; /* Base color */
 }
 
 footer .footer-col {
@@ -372,7 +372,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #0A1A3B; /* Base color */
 }
 
 .btn-social {
@@ -456,7 +456,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #0A1A3B; /* Base color */
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -466,14 +466,14 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #0A1A3B; /* Base color */
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: #0A1A3B !important; /* Base color */
 }
 
 /* Fix modal mouse wheel issues */
