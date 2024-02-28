@@ -32,7 +32,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif; /* Change font to Roboto */
+    font-family: 'Rubik', sans-serif; /* Change font to Rubik */
     font-weight: 700;
 }
 
@@ -64,16 +64,16 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #400B49; /* First header and bottom footer color */
+    background-color: #400B49; /* First header and bottom footer color Dark purple */
 }
 
 hr.star-primary {
-    border-color: #6B1080; /* Second header color */
+    border-color: #0000; /* Second header color */
 }
 
 hr.star-primary:after {
     color: #fff;
-    background-color: #6B1080; /* Second header color */
+    background-color: #0000; /* Second header color */
 }
 
 .img-centered {
@@ -101,7 +101,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif; /* Change font to Roboto */
+    font-family: 'Rubik', sans-serif; /* Change font to Rubik */
     font-size: 2em;
     font-weight: 700;
 }
@@ -128,7 +128,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif; /* Change font to Roboto */
+    font-family: 'Rubik', sans-serif; /* Change font to Rubik */
     font-weight: 700;
 }
 
@@ -175,7 +175,7 @@ section h2 {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(126, 87, 194, .9); /* Previous purplish color with 90% opacity */
+    background: rgba(126, 87, 194, .9); /* Previous purplish color with 70% opacity */
 
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
@@ -225,7 +225,7 @@ section h2 {
 .btn-outline.active {
     border: solid 2px #fff;
     color: #fff; /* White font color */
-    background: #6B1080; /* Purple background color */
+    background: #0000; /* black background color */
 }
 
 footer {
@@ -247,7 +247,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background: #400B49; /* Dark purple color */
+    background: #0000; /* Black color for bottom footer */
 }
 
 .btn-social {
