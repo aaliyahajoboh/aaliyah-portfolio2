@@ -67,7 +67,7 @@ hr.star-primary:after {
     padding: 0 .25em;
     font-family: FontAwesome;
     font-size: 2em;
-    color: #000; /* Change star color to black */
+    color: #fff; /* Change star color to black */
     background-color: #000; /* Change star background color to black */
 }
 
