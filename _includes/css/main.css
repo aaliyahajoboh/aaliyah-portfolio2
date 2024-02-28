@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #6B1080; /* Purple color for links */
+    color: #000; /* Purple color for links */
 }
 
 h1,
