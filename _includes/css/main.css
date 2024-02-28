@@ -167,6 +167,7 @@ header .intro-text .skills {
     outline: 0;
 }
 
+.navbar-default {color: #2A3A5B;}
 .navbar-default,
 .navbar-inverse {
     border: 0;
