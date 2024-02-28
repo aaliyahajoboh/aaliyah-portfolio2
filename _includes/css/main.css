@@ -63,7 +63,7 @@ hr.star-light {
 }
 
 hr.star-light:after {
-    color: #0A1A3B; /* Base color */
+    color: #fff; /* changed from Base color to white */
     background-color: #fff; /* Changed from Base color to white */
 }
 
