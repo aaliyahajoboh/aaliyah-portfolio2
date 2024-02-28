@@ -237,7 +237,7 @@ section h2 {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff; /* Change portfolio item text color to white */
+    color: #000; /* Change portfolio item text color to white */
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
