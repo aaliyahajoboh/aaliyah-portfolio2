@@ -63,12 +63,12 @@ hr.star-light {
 }
 
 hr.star-light:after {
-    color: #fff; /* changed from Base color to white */
+    color: #0A1A3B; /* Base color */
     background-color: #fff; /* Changed from Base color to white */
 }
 
 hr.star-primary {
-    border-color: #0A1A3B; /* Base color */
+    border-color: #fff; /* Base color */
 }
 
 hr.star-primary:after {
